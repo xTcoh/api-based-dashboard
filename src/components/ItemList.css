@@ -12,6 +12,8 @@
   overflow-y: auto;
   padding-right: 1rem;
   max-height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .items-list h2 {
@@ -45,7 +47,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  margin-top: 1.5rem;
+  margin-top: auto;
 }
 
 .pagination-button {
@@ -94,7 +96,7 @@
 }
 
 .items-list li {
-  padding: 1rem;
+  padding: 10px;
   margin: 0.5rem 0;
   background: linear-gradient(135deg, rgba(26, 26, 26, 0.7) 0%, rgba(20, 20, 20, 0.7) 100%);
   border-left: 4px solid transparent;
